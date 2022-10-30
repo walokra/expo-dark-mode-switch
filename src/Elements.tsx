@@ -10,5 +10,5 @@ type WebTouchableOpacityProps = NativeTouchableOpacityProps & {
 };
 
 export const TouchableOpacity = NativeTouchableOpacity as React.ComponentType<
-  WebTouchableOpacityProps
+  WebTouchableOpacityProps & { children?: React.ReactNode }
 >;
