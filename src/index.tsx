@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
     // @ts-ignore: borderRadius cannot be string on native
     borderRadius: Platform.select({
       web: '100%',
-      default: 17,
+      default: '17',
     }),
     backgroundColor: 'white',
     position: 'absolute',
